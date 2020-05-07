@@ -114,9 +114,15 @@ h2{
         height: 100%;
 
     }
+    #habilidades h4 {
+        font-size: 20px;
+    }
     #trabajos{
         margin: 0;
         padding: 0;
+    }
+    h2{
+        font-size: 35px;
     }
     header hr{
         width: 200px;
@@ -130,6 +136,9 @@ h2{
    .py-4{
        padding-top: 0;
        padding-bottom: 0;
+   }
+   .fa-5x{
+       font-size: 35px;
    }
 
 

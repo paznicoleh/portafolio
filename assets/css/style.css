@@ -121,8 +121,16 @@ h2{
     header hr{
         width: 200px;
     }
-    .card{
-        width: 300px;
+    #pie h5{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+        
     }
+   .py-4{
+       padding-top: 0;
+       padding-bottom: 0;
+   }
+
 
 }

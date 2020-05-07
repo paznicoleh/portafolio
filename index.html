@@ -20,7 +20,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light p-2 fixed-top">
         <div class="container">
-          <img src="assets/img/logo_black.png" alt="">
+          <img class="img-fluid" src="assets/img/logo_black.png" alt="logo">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +44,7 @@
       </nav>
       <!--Termino Nav Bar-->
       <header class="hero text-light container-fluid">
-        <div class="container">
+        <div class="container col-sm">
           <h1  class=" yo text-center">Yo soy</h1>
           <hr>
           <h1 class="text-center font-weight-bold">PAZ HERNANDEZ</h1>
@@ -82,8 +82,8 @@
       <!--Final sección acerca de mi-->
 
       <!--Inicio habilidades-->
-      <section id="habilidades" class="pt-5 container-fluid">
-        <div class="container">
+      <section id="habilidades" class="pt-5 ">
+        <div class="container-fluid col-sm">
           <h2 class="text-center"> HABILIDADES</h2>
           <hr class="linea">
           <!--Inicio carrusel-->
@@ -99,17 +99,17 @@
   
                 <div class="carousel-item active text-center">
                   <div class="row">
-                    <div class="col-4"> <!--Incorporación de tooltips al icono-->
+                    <div class="col-4 col-sm"><!--Incorporación de tooltips al icono-->
                       <i class="fas fa-bezier-curve fa-5x" data-container="body"data-toggle="tooltip" data-placement="top" title="Adobe"></i>
                       <h4 class="text-center pt-2">Illustrator</h4>
                       <p class="text-center">Nivel Avanzado</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-sm">
                       <i class="fas fa-images fa-5x" data-container="body" data-toggle="tooltip" data-placement="left" title="Adobe"></i>
                       <h4 class="text-center pt-2">Photoshop</h4>
                       <p class="text-center">Nivel Avanzado</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-sm">
                       <i class="fas fa-book-open fa-5x" data-container="body" data-toggle="tooltip" data-placement="top" title="Adobe"></i>
                       <h4 class="text-center pt-2">Indesing</h4>
                       <p class="text-center">Nivel Avanzado</p>
@@ -145,59 +145,99 @@
       </section>
       <!--Término sección habilidades-->
       <!--Inicio sección Trabajos-->
-      <section id="trabajos" class="pt-5 pb-5">
-        <div class="container">
-        <h2 class="text-center text-white"> MIS ÚLTIMOS TRABAJOS</h2>
-        <hr class="linea bg-white">
-        <!--Cards-->
-            <div class="card-deck col px-5 pb-5 mt-5">
-              <div class="card">
-                <img src="assets/img/meet_coffee.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Meet&Coffe</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+      <section id="trabajos" class=" py-5 mb-5"><!-- seccion -->
+        <h2 class="text-center  mt-5">MIS TRABAJOS</h2>
+            <hr class="linea">
+            <article class="container">
+                <div class="card-deck mt-5">
+                    <div class="card">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Meet&Coffe</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up.</p>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/img/desayunos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Desayunos</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Ver más</a>
+                          <a href="#" class="card-link">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/img/bebidas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Bebidas</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Ver más</a>
+                          <a href="#" class="card-link">Comprar</a>
+                        </div>
+                      </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Iguana Page</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <div class="card-deck mt-5 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/verduras.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Verduras</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Ver más</a>
+                          <a href="#" class="card-link">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/img/dulces.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dulces</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Ver más</a>
+                          <a href="#" class="card-link">Comprar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/img/empanadas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Empanadas</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item">Dapibus ac facilisis in</li>
+                        </ul>
+                        <div class="card-body">
+                          <a href="#" class="card-link">Ver más</a>
+                          <a href="#" class="card-link">Comprar</a>
+                        </div>
+                      </div>
                 </div>
-              </div>
-              <div class="card">
-                <img src="assets/img/suricata.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Suricata</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-deck col px-5">
-              <div class="card">
-                <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Cuppon</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Ricomida</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional.</p>
-                </div>
-              </div>
-              <div class="card">
-                <img src="assets/img/dmark.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Dmark</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
-                </div>
-              </div>
-            </div>
-        </div>
-      </section>
+            </article>
+        
+    </section>
       <!--Fin seccion trabajos-->
       <!--Inicio seccion contacto-->
       <section id="contacto" class="container py-5">
